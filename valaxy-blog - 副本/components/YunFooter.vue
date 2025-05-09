@@ -5,6 +5,7 @@ import { capitalize, computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useThemeConfig } from '../node_modules/valaxy-theme-yun/composables'
 import DomainCheck from '../components/DomainCheck.vue'
+import NoticeBar from '../components/NoticeBar.vue'
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // 原有配置
@@ -42,11 +43,6 @@ const customLinks = ref([
     link: 'https://www.travellings.cn/go-by-clouds.html',
     icon: 'https://www.travellings.cn/assets/logo.gif',
   },
-  {
-    name: 'ForeverBlog',
-    link: 'https://www.foreverblog.cn/',
-    icon: 'https://img.foreverblog.cn/logo_en_default.png',
-  },
 ])
 
 const voyagerDistance = ref<string>('正在加载...')
@@ -76,6 +72,7 @@ onUnmounted(() => {
 <template>
   <div class="footer-container">
     <DomainCheck class="domain-check" />
+    <NoticeBar class="notice-bar" />
 
     <footer
       flex="~ col"
@@ -100,7 +97,7 @@ onUnmounted(() => {
 
       <!-- 新增萌备案 -->
       <div class="beian" m="y-2">
-        <a href="https://icp.gov.moe/?keyword=20251207" target="_blank">萌ICP备20251207号</a>
+        <a href="https://icp.gov.moe/?keyword=[萌号]" target="_blank" rel="noopener">萌ICP备号</a>
       </div>
 
       <!-- 版权信息 -->
@@ -128,11 +125,6 @@ onUnmounted(() => {
 
       <!-- 自定义链接 -->
       <div class="custom-links flex justify-center items-center gap-2" p="1">
-        <!-- 固定的"站点服务监控"链接 -->
-        <a href="https://server.xiablog.asia/" target="_blank" rel="noopener">站点服务监控</a>
-        <span>|</span>
-        
-        <!-- 动态循环的链接 -->
         <template v-for="(link, index) in customLinks" :key="index">
           <a :href="link.link" target="_blank" rel="noopener">
             <img v-if="link.icon" :src="link.icon" :alt="link.name" class="h-5">
@@ -179,6 +171,28 @@ onUnmounted(() => {
   font-size: 0.9em;
   color: var(--va-c-text-light);
   opacity: 0.8;
+}
+
+.notice-bar {
+  position: relative;
+  z-index: 1000;
+  margin: 1rem auto;
+  padding: 0.75rem 1.5rem;
+  background: rgba(var(--va-c-primary), 0.1);
+  border-radius: 8px;
+  max-width: 600px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  @media (max-width: 768px) {
+    margin: 0.5rem;
+    font-size: 0.85em;
+    padding: 0.5rem 1rem;
+  }
 }
 
 .yun-footer {

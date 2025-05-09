@@ -11,9 +11,6 @@ importers:
       valaxy:
         specifier: 0.23.3
         version: 0.23.3(@babel/parser@7.27.2)(@nuxt/kit@3.17.2)(@types/markdown-it@14.1.2)(@types/node@22.15.17)(@vue/compiler-dom@3.5.13)(axios@1.9.0)(eslint@9.26.0(jiti@2.4.2))(postcss@8.5.3)(rollup@4.40.2)(terser@5.39.0)(typescript@5.8.3)(yaml@2.7.1)
-      valaxy-addon-components:
-        specifier: ^0.1.0
-        version: 0.1.0
       valaxy-theme-yun:
         specifier: 0.23.3
         version: 0.23.3(vue@3.5.13(typescript@5.8.3))
@@ -3420,9 +3417,6 @@ packages:
   uuid@11.1.0:
     resolution: {integrity: sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==}
     hasBin: true
-
-  valaxy-addon-components@0.1.0:
-    resolution: {integrity: sha512-7uCJgUgc2JHISmz/UDQlhBqGSNW4QKmkiRlcwj5WhjhScC/KktK8JtADeKh6FCaAJHbjShovHB/9UPVtnTwORg==}
 
   valaxy-theme-yun@0.23.3:
     resolution: {integrity: sha512-tEKAMu62aQD88bacei45Fo33NmeWJkYGG9Zp2KM0QxHZkWmkS9H3DNXVA9Bs+QCCp/ZxhfV7jn8MIAhhZyngKw==}
@@ -7481,8 +7475,6 @@ snapshots:
       punycode: 2.3.1
 
   uuid@11.1.0: {}
-
-  valaxy-addon-components@0.1.0: {}
 
   valaxy-theme-yun@0.23.3(vue@3.5.13(typescript@5.8.3)):
     dependencies:

@@ -5,7 +5,7 @@ export default defineSiteConfig({
   favicon: "https://valaxy.site/favicon.svg",	// 网页图标链接
   lang: 'zh-CN',  //默认语言
   title: "X.博客",  //网站标题
-  subtitle: '一个初中生的Blog',//网站副标题
+  subtitle: '',//网站副标题
   author: {
     name: 'X.Rui',//博主名称
     avatar: "https://cdn.z.wiki/autoupload/20250509/1BTk/623X712/20250426-1655-Q%E7%89%88%E5%BE%AE%E7%AC%91%E5%A5%B3%E4%B8%BB-remix-01jsrmwj3benx9z2kztnwpfvra123.png",	//头像链接
@@ -67,13 +67,13 @@ export default defineSiteConfig({
     methods: [
       {
         name: '支付宝',
-        url: 'https://cdn.z.wiki/autoupload/20250510/wj8E/1080X1679/1746810238349.jpg', //这里填写你的支付宝收款码图片链接
+        url: '', //这里填写你的支付宝收款码图片链接
         color: '#00A3EE',
         icon: 'i-ri-alipay-line',
       },
       {
         name: '微信支付',
-        url: 'https://cdn.z.wiki/autoupload/20250510/fs7J/1153X1570/mm-facetoface-collect-qrcode-1746810148671.png',//这里填写你的微信收款码图片链接
+        url: '',//这里填写你的微信收款码图片链接
         color: '#2DC100',
         icon: 'i-ri-wechat-pay-line',
       },
