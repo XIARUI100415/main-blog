@@ -6,7 +6,6 @@ import { useI18n } from 'vue-i18n'
 import { useThemeConfig } from '../node_modules/valaxy-theme-yun/composables'
 import { ref, onMounted, onUnmounted } from 'vue'
 
-// 原有配置
 const { isDark } = useValaxyDark()
 const gradientStyles = computed(() => {
   return isDark.value 
@@ -19,12 +18,11 @@ const config = useValaxyConfig()
 const siteConfig = useSiteConfig()
 const themeConfig = useThemeConfig()
 const year = new Date().getFullYear()
-
 const isThisYear = computed(() => year === themeConfig.value.footer.since)
 
 const poweredHtml = computed(() => 
-  t('footer.powered', [`<a href="${pkg.repository.url}" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v${pkg.version}</span>`]
-))
+  t('footer.powered', [`<a href="${pkg.repository.url}" target="_blank" rel="noopener">Valaxy</a> <span class="op-60">v${pkg.version}</span>`])
+)
 
 const footerIcon = computed(() => 
   themeConfig.value.footer.icon || {
@@ -34,7 +32,6 @@ const footerIcon = computed(() =>
   }
 )
 
-// 新增功能
 const customLinks = ref([
   {
     name: '开往',
@@ -74,8 +71,6 @@ onUnmounted(() => {
 
 <template>
   <div class="footer-container">
-    
-
     <footer
       flex="~ col"
       class="yun-footer va-footer px-4 py-4 pt-0 text-$va-c-text-light w-full mt-14"
@@ -127,11 +122,8 @@ onUnmounted(() => {
 
       <!-- 自定义链接 -->
       <div class="custom-links flex justify-center items-center gap-2" p="1">
-        <!-- 固定的"站点服务监控"链接 -->
         <a href="https://server.xiablog.asia/" target="_blank" rel="noopener">站点服务监控</a>
         <span>|</span>
-        
-        <!-- 动态循环的链接 -->
         <template v-for="(link, index) in customLinks" :key="index">
           <a :href="link.link" target="_blank" rel="noopener">
             <img v-if="link.icon" :src="link.icon" :alt="link.name" class="h-5">
@@ -155,6 +147,19 @@ onUnmounted(() => {
         </span>
       </div>
 
+      <!-- ✅ Vercel 部署信息 -->
+      <div class="vercel-deploy" m="y-1">
+        由
+        <a href="https://vercel.com" target="_blank" rel="noopener" title="Vercel 官网">
+          <img
+            src="https://www.vercel.com/button"
+            alt="Vercel"
+            style="height: 20px; vertical-align: middle; display: inline-block;"
+          />
+        </a>
+        提供部署服务
+      </div>
+
       <!-- 旅行者一号信息 -->
       <div class="voyager-distance" m="y-2">
         {{ voyagerDistance }}
@@ -170,7 +175,6 @@ onUnmounted(() => {
   position: relative;
   z-index: 100;
 }
-
 
 .yun-footer {
   letter-spacing: 0.05rem;
@@ -197,16 +201,27 @@ onUnmounted(() => {
   }
 }
 
-// 新增样式
 .custom-links {
   img {
     height: 20px;
     vertical-align: middle;
     transition: transform 0.3s ease;
-    
+
     &:hover {
       transform: scale(1.1);
     }
+  }
+}
+
+.vercel-deploy {
+  font-size: 14px;
+  color: var(--va-c-text-light);
+  opacity: 0.85;
+
+  a img {
+    height: 20px;
+    vertical-align: middle;
+    margin: 0 4px;
   }
 }
 
@@ -218,7 +233,11 @@ onUnmounted(() => {
 }
 
 @keyframes fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 </style>
