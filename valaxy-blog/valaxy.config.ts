@@ -59,7 +59,7 @@ export default defineValaxyConfig<UserThemeConfig>({
       powered: true, //这里是显示Valaxy驱动信息的，尊重作者劳动成果，我选择开启
       beian: {
         enable: true,
-        icp: '陇ICP备2024012756号-1',  //这里是备案号，如果你不需要备案号，可以将上面的enable改为false即可
+        icp: '陇ICP备2024012756号',  //这里是备案号，如果你不需要备案号，可以将上面的enable改为false即可
       },
     },
     

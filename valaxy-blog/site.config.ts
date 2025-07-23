@@ -5,7 +5,7 @@ export default defineSiteConfig({
   favicon: "https://valaxy.site/favicon.svg",	// 网页图标链接
   lang: 'zh-CN',  //默认语言
   title: "X.博客",  //网站标题
-  subtitle: '一个初中生的Blog',//网站副标题
+  subtitle: ' ',//网站副标题
   author: {
     name: 'X.Rui',//博主名称
     avatar: "https://cdn.z.wiki/autoupload/20250509/1BTk/623X712/20250426-1655-Q%E7%89%88%E5%BE%AE%E7%AC%91%E5%A5%B3%E4%B8%BB-remix-01jsrmwj3benx9z2kztnwpfvra123.png",	//头像链接
