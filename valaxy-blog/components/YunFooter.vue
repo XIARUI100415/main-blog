@@ -92,11 +92,6 @@ onUnmounted(() => {
         </a>
       </div>
 
-      <!-- 新增萌备案 -->
-      <div class="beian" m="y-2">
-        <a href="https://icp.gov.moe/?keyword=20251207" target="_blank">萌ICP备20251207号</a>
-      </div>
-
       <!-- 版权信息 -->
       <div class="copyright flex justify-center items-center gap-2" p="1">
         <span>
