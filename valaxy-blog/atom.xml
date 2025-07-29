@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://xiablog.asia/</id>
+    <title>X.博客</title>
+    <updated>2025-07-29T18:08:54.519Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>X.Rui</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://xiablog.asia/"/>
+    <link rel="self" href="https://xiablog.asia/atom.xml"/>
+    <logo>https://cdn.z.wiki/autoupload/20250509/1BTk/623X712/20250426-1655-Q%E7%89%88%E5%BE%AE%E7%AC%91%E5%A5%B3%E4%B8%BB-remix-01jsrmwj3benx9z2kztnwpfvra123.png</logo>
+    <icon>https://xiablog.asia/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2025 © X.Rui</rights>
+    <entry>
+        <title type="html"><![CDATA[一篇牢骚]]></title>
+        <id>https://xiablog.asia/posts/一篇牢骚</id>
+        <link href="https://xiablog.asia/posts/一篇牢骚"/>
+        <updated>2025-07-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>距离上次更新也已经过去很久了。从 Cloudflare 的流量图可以看到，我的网站 <a href="https://ai.xiablog.asia">ai.xiablog.asia</a> 访问量最高，但访问的却是 `</p>
+<br/><p>访问 <a href="https://xiablog.asia/posts/一篇牢骚" target="_blank">https://xiablog.asia/posts/一篇牢骚</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>X.Rui</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-07-30T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随笔 For Li.]]></title>
+        <id>https://xiablog.asia/posts/随笔——致李燕春</id>
+        <link href="https://xiablog.asia/posts/随笔——致李燕春"/>
+        <updated>2024-12-22T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>我可能从未爱过你，你也可能从未爱过我，我想珍惜你，但你如一缕清风，带给了我短暂的凉爽，便又悄然离我而去。<br>
+你根本不是枯木，但我已没了下一个春。</p>
+<p>你说过的，让我等着看你爱我，我没等到，我知道我也</p>
+<br/><p>访问 <a href="https://xiablog.asia/posts/随笔——致李燕春" target="_blank">https://xiablog.asia/posts/随笔——致李燕春</a> 阅读全文。</p>]]></content>
+        <author>
+            <name>X.Rui</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2025-04-20T00:00:00.000Z</published>
+    </entry>
+</feed>
