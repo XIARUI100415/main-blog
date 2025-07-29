@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiablog.asia/</id>
     <title>X.博客</title>
-    <updated>2025-07-29T20:55:44.727Z</updated>
+    <updated>2025-07-29T21:07:57.423Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>X.Rui</name>
@@ -29,19 +29,27 @@
         <published>2025-07-30T00:00:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[手把手教你搭建自己的网站]]></title>
+        <title type="html"><![CDATA[]]></title>
         <id>https://xiablog.asia/posts/博客部署教程</id>
         <link href="https://xiablog.asia/posts/博客部署教程"/>
-        <updated>2025-07-30T00:00:00.000Z</updated>
-        <content type="html"><![CDATA[<h6>虽说是网站，但它的名字叫博客更为合适，大多数人需要的也只是一个分享见解的平台而已，不惧他人眼光，合法的想说什么说什么</h6>
-<p>！！！长文警告，但是是保姆级教程，我会在文中介绍使用的工具等等，我</p>
+        <updated>2025-07-29T21:05:57.370Z</updated>
+        <content type="html"><![CDATA[<hr>
+<p>title: 手把手教你搭建自己的网站<br>
+date: 2025-07-30<br>
+updated: 2025-07-30<br>
+categories: posts<br>
+tags:</p>
+<ul>
+<li>教程,博客<br>
+top:</li>
+</ul>
 <br/><p>访问 <a href="https://xiablog.asia/posts/博客部署教程" target="_blank">https://xiablog.asia/posts/博客部署教程</a> 阅读全文。</p>]]></content>
         <author>
             <name>X.Rui</name>
             <email>i@valaxy.site</email>
             <uri>https://valaxy.site</uri>
         </author>
-        <published>2025-07-30T00:00:00.000Z</published>
+        <published>2025-07-29T21:05:57.370Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[随笔 For Li.]]></title>
