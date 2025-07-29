@@ -4,7 +4,7 @@
         <title>X.博客</title>
         <link>https://xiablog.asia/</link>
         <description></description>
-        <lastBuildDate>Tue, 29 Jul 2025 18:08:54 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 29 Jul 2025 20:55:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -21,6 +21,16 @@
             <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
             <content:encoded><![CDATA[<p>距离上次更新也已经过去很久了。从 Cloudflare 的流量图可以看到，我的网站 <a href="https://ai.xiablog.asia">ai.xiablog.asia</a> 访问量最高，但访问的却是 `</p>
 <br/><p>访问 <a href="https://xiablog.asia/posts/一篇牢骚" target="_blank">https://xiablog.asia/posts/一篇牢骚</a> 阅读全文。</p>]]></content:encoded>
+            <author>i@valaxy.site (X.Rui)</author>
+        </item>
+        <item>
+            <title><![CDATA[手把手教你搭建自己的网站]]></title>
+            <link>https://xiablog.asia/posts/博客部署教程</link>
+            <guid>https://xiablog.asia/posts/博客部署教程</guid>
+            <pubDate>Wed, 30 Jul 2025 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<h6>虽说是网站，但它的名字叫博客更为合适，大多数人需要的也只是一个分享见解的平台而已，不惧他人眼光，合法的想说什么说什么</h6>
+<p>！！！长文警告，但是是保姆级教程，我会在文中介绍使用的工具等等，我</p>
+<br/><p>访问 <a href="https://xiablog.asia/posts/博客部署教程" target="_blank">https://xiablog.asia/posts/博客部署教程</a> 阅读全文。</p>]]></content:encoded>
             <author>i@valaxy.site (X.Rui)</author>
         </item>
         <item>
