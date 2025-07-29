@@ -36,7 +36,7 @@ export default defineSiteConfig({
     },
     {
       name: 'E-Mail',
-      link: 'mailto:ruixia723@gmail.com', //这里在mailto后面填写你的Email地址，不需要的话删除此字段即可
+      link: 'mailto:xr1948083823@outlook.com', //这里在mailto后面填写你的Email地址，不需要的话删除此字段即可
       icon: 'i-ri-mail-line',
       color: '#8E71C1',
     },
